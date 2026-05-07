@@ -1,0 +1,19 @@
+
+
+<div id="promotion-root"></div>
+<script src="{{ 'promotion-form.js' | asset_url }}" defer></script>
+
+{% schema %}
+{
+  "name": "Promotion Form",
+  "target": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "app_url",
+      "label": "App URL",
+      "info": "Your Shopify app tunnel or production URL"
+    }
+  ]
+}
+{% endschema %}
